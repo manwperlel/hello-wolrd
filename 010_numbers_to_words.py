@@ -1,4 +1,4 @@
-number = float(input("number to converter:"))
+number = float(input("Enter a number to convert: "))
 
 if number == 1:
     print("one")
@@ -10,6 +10,5 @@ elif number == 4:
     print("four")
 elif number == 5:
     print("five")
-
 else:
-    print("the number is unknown")
+    print("Unknown number")

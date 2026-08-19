@@ -9,7 +9,7 @@ if option == 1:
 elif option == 2:
     print("Word-to-number converter")
 else:
-    print("This option is unknown")
+    print("Invalid option")
 
 if option == 1:
     number = int(input("Enter the number you want to convert: "))

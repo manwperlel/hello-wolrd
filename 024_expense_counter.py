@@ -12,7 +12,7 @@ while cut == "not":
     print("Available balance:", balance)
     spent = int(input("Enter the expense: "))
     
-    balance = balance - spent  # <-- Corregido: descontamos del saldo
+    balance = balance - spent
     counter = counter + 1
     total = total + spent
     
